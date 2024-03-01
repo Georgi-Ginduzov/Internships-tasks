@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\bin\Debug\net6.0\MentorMateUniversityAplication.exe
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\bin\Debug\net6.0\MentorMateUniversityAplication.deps.json
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\bin\Debug\net6.0\MentorMateUniversityAplication.runtimeconfig.json
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\bin\Debug\net6.0\MentorMateUniversityAplication.dll
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\bin\Debug\net6.0\MentorMateUniversityAplication.pdb
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.AssemblyInfo.cs
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.dll
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\refint\MentorMateUniversityAplication.dll
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.pdb
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\MentorMateUniversityAplication.genruntimeconfig.cache
+C:\Users\User\source\repos\MentorMateUniversityAplication\MentorMateUniversityAplication\obj\Debug\net6.0\ref\MentorMateUniversityAplication.dll
