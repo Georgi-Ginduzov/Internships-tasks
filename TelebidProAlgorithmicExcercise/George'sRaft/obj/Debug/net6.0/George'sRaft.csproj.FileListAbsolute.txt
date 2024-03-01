@@ -1,0 +1,15 @@
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\bin\Debug\net6.0\George'sRaft.exe
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\bin\Debug\net6.0\George'sRaft.deps.json
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\bin\Debug\net6.0\George'sRaft.runtimeconfig.json
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\bin\Debug\net6.0\George'sRaft.dll
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\bin\Debug\net6.0\George'sRaft.pdb
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.AssemblyInfo.cs
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.sourcelink.json
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.dll
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\refint\George'sRaft.dll
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.pdb
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\George'sRaft.genruntimeconfig.cache
+C:\Users\Asus\source\repos\University-NBU-\TelebidProAlgorithmicExcercise\George'sRaft\obj\Debug\net6.0\ref\George'sRaft.dll
