@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pdniBy6uocA5JsHux8hDAouyJmZnmA98pCT1KqNs1mbqA1G3jYSowjpsbi27tLrl2vdVFxSWO58PSvx8M4Rrwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\csvhelper\\32.0.1\\csvhelper.32.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

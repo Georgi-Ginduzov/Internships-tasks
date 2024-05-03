@@ -1,0 +1,6 @@
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.AssemblyInfo.cs
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.sourcelink.json

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Localization\Resources\" />
+    <Folder Include="Models\Contracts\" />
+    <Folder Include="Repositories\Contracts\" />
+    <Folder Include="Utilities\InputFiles\SpaceportsWeatherForecasts\" />
+    <Folder Include="Utilities\Results\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="32.0.1" />
+  </ItemGroup>
+
+</Project>
