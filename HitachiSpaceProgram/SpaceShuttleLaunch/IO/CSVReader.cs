@@ -1,12 +1,11 @@
 ﻿using SpaceShuttleLaunch.IO.Contracts;
+using SpaceShuttleLaunch.Models;
+using System.Globalization;
 
 namespace SpaceShuttleLaunch.IO
 {
-    public class CSVReader : IReader
+    public abstract class CSVReader : IReader
     {
-        public string ReadLine()
-        {
-            
-        }
+        public abstract string Read(string filePath);
     }
 }

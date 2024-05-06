@@ -11,8 +11,8 @@
     <Folder Include="Localization\Resources\" />
     <Folder Include="Models\Contracts\" />
     <Folder Include="Repositories\Contracts\" />
+    <Folder Include="Services\Contracts\" />
     <Folder Include="Utilities\InputFiles\SpaceportsWeatherForecasts\" />
-    <Folder Include="Utilities\Results\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -4,3 +4,15 @@ C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLau
 C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.AssemblyInfo.cs
 C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.csproj.CoreCompileInputs.cache
 C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.sourcelink.json
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\bin\Debug\net6.0\SpaceShuttleLaunch.exe
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\bin\Debug\net6.0\SpaceShuttleLaunch.deps.json
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\bin\Debug\net6.0\SpaceShuttleLaunch.runtimeconfig.json
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\bin\Debug\net6.0\SpaceShuttleLaunch.dll
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\bin\Debug\net6.0\SpaceShuttleLaunch.pdb
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShu.E59090D2.Up2Date
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.dll
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\refint\SpaceShuttleLaunch.dll
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.pdb
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\SpaceShuttleLaunch.genruntimeconfig.cache
+C:\Users\Asus\source\repos\Internships-tasks\HitachiSpaceProgram\SpaceShuttleLaunch\obj\Debug\net6.0\ref\SpaceShuttleLaunch.dll

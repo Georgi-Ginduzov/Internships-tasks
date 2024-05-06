@@ -3,6 +3,6 @@
     public interface IWriter
     {
         void Write(string message);
-        void Clear();
+        void ClearData();
     }
 }
