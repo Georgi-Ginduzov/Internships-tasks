@@ -7,7 +7,7 @@ namespace SpaceShuttleLaunch
     {
         static void Main(string[] args)
         {
-            IEngine engine = new WeatherEngine("C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Utilities\\InputFiles\\Test.csv");
+            IEngine engine = new SpaceMissionEngine();
             engine.Run();
         }
     }

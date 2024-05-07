@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,10 +9,7 @@
 
   <ItemGroup>
     <Folder Include="Localization\Resources\" />
-    <Folder Include="Models\Contracts\" />
-    <Folder Include="Repositories\Contracts\" />
     <Folder Include="Services\Contracts\" />
-    <Folder Include="Utilities\InputFiles\SpaceportsWeatherForecasts\" />
   </ItemGroup>
 
   <ItemGroup>

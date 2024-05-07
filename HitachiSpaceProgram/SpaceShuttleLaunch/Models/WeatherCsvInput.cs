@@ -1,22 +1,13 @@
 ﻿using CsvHelper.Configuration.Attributes;
-using System.Collections;
 
 namespace SpaceShuttleLaunch.Models
 {
-    public class WeatherCsvInput //: IComparable<WeatherCsvInput>//, IEnumerable
+    public class WeatherCsvInput
     {
         [Index(0)]
         public string Parameter { get; set; }
 
-        [Index(1, -1)]
-        public List<string> Days { get; set; }
-
-        /*public WeatherCsvInput()
-        {
-            Days = new List<string>();
-        }*/
-
-        /*[Name("1")]// make this a list of days??? how to do this?
+        [Name("1")]
         public string Day1 { get; set; }
 
         [Name("2")]
@@ -59,29 +50,6 @@ namespace SpaceShuttleLaunch.Models
         public string Day14 { get; set; }
 
         [Name("15")]
-        public string Day15 { get; set; }*/
-
-
-        public int CompareTo(WeatherCsvInput other)
-        {
-            // Compare by wind speed first, then by humidity
-            /*int windComparison = WindSpeed.CompareTo(other.WindSpeed);
-            if (windComparison == 0)
-            {
-                // If wind speeds are equal, compare by humidity
-                return Humidity.CompareTo(other.Humidity);
-            }
-            else
-            {
-                return windComparison;
-            }*/
-
-            return 0;
-        }
-
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
+        public string Day15 { get; set; }
     }
 }

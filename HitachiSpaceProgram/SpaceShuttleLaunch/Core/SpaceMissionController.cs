@@ -1,17 +1,29 @@
 ﻿using SpaceShuttleLaunch.Core.Contracts;
-using SpaceShuttleLaunch.IO;
 using SpaceShuttleLaunch.Models;
+using SpaceShuttleLaunch.Repositories;
 
 namespace SpaceShuttleLaunch.Core
 {
     public class SpaceMissionController : ISpaceMissionController
     {
-        private Spaceport spaceport;
+        private SpaceportRepository spaceports;
+        private WeatherForecastsRepository forecasts;
+        
         public SpaceMissionController()
         {
-            spaceport = new Spaceport();
+            spaceports = new SpaceportRepository();
+            forecasts = new WeatherForecastsRepository();
         }
 
-       
+
+        public void AddSpaceport(string location) 
+        {
+            var spaceport = new Spaceport();
+            spaceport.LocationName = location;
+            
+        }
+
+        // Distance to the equator??
+        // CompareTo
     }
 }

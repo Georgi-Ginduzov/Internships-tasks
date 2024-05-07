@@ -1,6 +1,7 @@
 ﻿namespace SpaceShuttleLaunch.Core.Contracts
 {
-    internal interface ISpaceMissionController
+    public interface ISpaceMissionController
     {
+        void AddSpaceport(string location);
     }
 }

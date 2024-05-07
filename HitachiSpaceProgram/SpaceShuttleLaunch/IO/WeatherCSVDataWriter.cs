@@ -27,16 +27,10 @@ namespace SpaceShuttleLaunch.IO
             }
             catch (DirectoryNotFoundException)
             {
-                // Handle the case where the directory doesn't exist.
-                // This might involve creating the directory and retrying the operation.
-
                 throw new DirectoryNotFoundException(ExceptionMessages.DirectoryNotFoundException);
             }
             catch (IOException ex)
             {
-
-                // is the file already open in another process
-                // is there enough disk space to create or write to the file
                 throw new IOException(ExceptionMessages.IOError, ex);
             }
         }
@@ -52,8 +46,7 @@ namespace SpaceShuttleLaunch.IO
             }
             catch (IOException ex)
             {
-                // Handle exception here.
-                Console.WriteLine(ExceptionMessages.IOError, ex.Message);
+                throw new IOException(ExceptionMessages.IOError, ex);
             }
         }
 
@@ -68,7 +61,6 @@ namespace SpaceShuttleLaunch.IO
             }
             catch (DirectoryNotFoundException)
             {
-                // TODO: Handle the case where the directory doesn't exist.
                 throw new DirectoryNotFoundException(ExceptionMessages.DirectoryNotFoundException);
             }
 
