@@ -1,4 +1,5 @@
-﻿using SpaceShuttleLaunch.Models;
+﻿using SpaceShuttleLaunch.Core.Contracts;
+using SpaceShuttleLaunch.Models;
 using SpaceShuttleLaunch.Models.Contracts;
 using SpaceShuttleLaunch.Models.LaunchWeatherCriteria;
 using SpaceShuttleLaunch.Repositories;
@@ -6,7 +7,7 @@ using System.Globalization;
 
 namespace SpaceShuttleLaunch.Core
 {
-    public class SpaceMissionController : IContr
+    public class SpaceMissionController : ISpaceMissionController
     {   
         private SpaceportRepository spaceports;
 
