@@ -20,12 +20,12 @@ namespace SpaceShuttleLaunch.Core
 
         public SpaceportRepository Spaceports => spaceports;
 
-        public bool SendEmail(string senderEmail, string senderPassword, string recipientEmail, string subject, string body)
+        public bool SendEmailWithAttachment(string senderEmail, string senderPassword, string recipientEmail, string subject, string bodyText, string attachmentLocation)
         {
             try
             {
                 var emailService = new EmailService(senderEmail, senderPassword);
-                emailService.Send(recipientEmail, subject, body);
+                emailService.Send(recipientEmail, subject, bodyText, attachmentLocation);
             }
             catch (Exception ex)
             {

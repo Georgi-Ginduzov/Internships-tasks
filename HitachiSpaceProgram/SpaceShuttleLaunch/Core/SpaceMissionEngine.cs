@@ -1,9 +1,6 @@
 ﻿using SpaceShuttleLaunch.Core.Contracts;
 using SpaceShuttleLaunch.IO;
 using SpaceShuttleLaunch.IO.Contracts;
-using SpaceShuttleLaunch.Models;
-using SpaceShuttleLaunch.Models.Contracts;
-using SpaceShuttleLaunch.Repositories;
 
 namespace SpaceShuttleLaunch.Core
 {
@@ -11,6 +8,7 @@ namespace SpaceShuttleLaunch.Core
     {
         private IWriter writer;
         private SpaceMissionController controller;
+        private readonly string attachmentLocation = "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Utilities\\Results\\LaunchAnalysisReport.csv";
         
         public SpaceMissionEngine()
         {
@@ -63,11 +61,10 @@ namespace SpaceShuttleLaunch.Core
                 writer.Write($"{spaceportName}, {bestDate}");
             }
 
-            // Get email sample info
-            string subject = "Space Shuttle Launch";
-            string body = "The best date for the space shuttle launch is: ";
+            string mailSubject = "Space Shuttle Launch";
+            string mailBody = controller.Spaceports.Models.First().LocationName.ToString() + " on date -> " + controller.Spaceports.Models.First().MostConvenientDayForLaunch.Date.ToString();
 
-            controller.SendEmail(senderEmail, senderPassword, recipientEmail, subject, body);
+            controller.SendEmailWithAttachment(senderEmail, senderPassword, recipientEmail, mailSubject, mailBody, attachmentLocation);
 
         }
     }

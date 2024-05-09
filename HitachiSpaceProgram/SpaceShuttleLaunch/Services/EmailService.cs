@@ -1,4 +1,5 @@
-﻿using SpaceShuttleLaunch.Services.Contracts;
+﻿using MimeKit;
+using SpaceShuttleLaunch.Services.Contracts;
 using System.Net;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
@@ -33,26 +34,33 @@ namespace SpaceShuttleLaunch.Services
             }
         }
         
-        public bool Send(string recipientEmail, string subject, string body)
+        public bool Send(string recipientEmail, string subject, string text, string attachmentLocation)
         {
             if(!ValidEmail(recipientEmail))
             {
                 Console.WriteLine("Recipient email addres incorrect! Please try again.");
                 recipientEmail = Console.ReadLine();
 
-                Send(recipientEmail, subject, body); // or cycle with max attempts
+                Send(recipientEmail, subject, text, attachmentLocation); // or cycle with max attempts
             }
 
-            using (var mailMessage = new MailMessage(senderEmail, recipientEmail, subject, body))
-            using (var smtpClient = new SmtpClient
+            using (var mailMessage = new MailMessage(senderEmail, recipientEmail, subject, text))
             {
-                Host = "smtp.gmail.com",
-                Port = 587,
-                Credentials = new NetworkCredential(senderEmail, password),
-                EnableSsl = true,
-            })
-            {
-                smtpClient.Send(mailMessage);
+                if (File.Exists(attachmentLocation))
+                {
+                    mailMessage.Attachments.Add(new Attachment(attachmentLocation));
+                }
+                using (var smtpClient = new SmtpClient
+                {
+                    Host = "smtp.gmail.com",
+                    Port = 587,
+                    Credentials = new NetworkCredential(senderEmail, password),
+                    EnableSsl = true,
+                })
+                {
+                    smtpClient.Send(mailMessage);
+                }
+
             }
 
             return true;
