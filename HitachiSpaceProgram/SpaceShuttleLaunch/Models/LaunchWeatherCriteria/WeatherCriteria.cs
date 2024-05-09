@@ -4,16 +4,16 @@ namespace SpaceShuttleLaunch.Models.LaunchWeatherCriteria
 {
     public class WeatherCriteria
     {
-        private readonly List<IWeatherCriteria> _criteria;
+        private readonly List<IWeatherCriteria> criteria;
 
         public WeatherCriteria(List<IWeatherCriteria> criteria)
         {
-            _criteria = criteria;
+            this.criteria = criteria;
         }
 
-        public bool IsWeatherSuitable(DailyForecast forecast)
+        public bool IsWeatherSuitable(IWeatherForecast forecast)
         {
-            return _criteria.All(criterion => criterion.IsSatisfiedBy(forecast));
+            return criteria.All(criterion => criterion.IsSatisfiedBy(forecast));
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using SpaceShuttleLaunch.Models;
-using SpaceShuttleLaunch.Models.Contracts;
+﻿using SpaceShuttleLaunch.Models.Contracts;
 using SpaceShuttleLaunch.Repositories.Contracts;
 
 namespace SpaceShuttleLaunch.Repositories

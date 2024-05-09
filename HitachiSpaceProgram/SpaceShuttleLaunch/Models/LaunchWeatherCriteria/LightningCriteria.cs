@@ -4,7 +4,7 @@ namespace SpaceShuttleLaunch.Models.LaunchWeatherCriteria
 {
     public class LightningCriteria : IWeatherCriteria
     {
-        public bool IsSatisfiedBy(DailyForecast forecast)
+        public bool IsSatisfiedBy(IWeatherForecast forecast)
         {
             return forecast.Lightning == "No";
         }

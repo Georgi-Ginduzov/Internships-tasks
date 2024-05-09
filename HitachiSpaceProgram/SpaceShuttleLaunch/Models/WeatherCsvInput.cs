@@ -2,7 +2,7 @@
 
 namespace SpaceShuttleLaunch.Models
 {
-    public class WeatherCsvInput
+    public sealed class WeatherCsvInput
     {
         [Index(0)]
         public string Parameter { get; set; }

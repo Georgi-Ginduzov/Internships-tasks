@@ -2,7 +2,7 @@
 
 namespace SpaceShuttleLaunch.Models
 {
-    public class DailyForecast : IComparable, IWeatherForecast
+    public class DailyForecast : IWeatherForecast, IComparable
     {
         public DailyForecast()
         {
@@ -23,6 +23,9 @@ namespace SpaceShuttleLaunch.Models
 
         public string Clouds { get; set; }
 
+        public int Lattitude { get; set; }
+
+
         public int CompareTo(object obj)
         {
             if (obj == null) return 1;
@@ -37,7 +40,6 @@ namespace SpaceShuttleLaunch.Models
                 int windSpeedComparison = thisWindSpeed.CompareTo(otherWindSpeed);
                 if (windSpeedComparison == 0)
                 {
-                    // If WindSpeed is equal, compare Humidity
                     return thisHumidity.CompareTo(otherHumidity);
                 }
                 else

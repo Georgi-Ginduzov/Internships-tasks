@@ -13,9 +13,14 @@ namespace SpaceShuttleLaunch.Repositories
         }
 
         public IReadOnlyCollection<ISpaceport> Models => models;
+        public IWeatherForecast MostSuitableLaunchDay
+        {
+            get => models.First().MostConvenientDayForLaunch;
+        }
 
         public void Add(ISpaceport model)
         {
+            
             models.Add(model);
         }
 

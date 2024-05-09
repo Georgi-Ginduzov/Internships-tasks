@@ -1,7 +1,5 @@
 ﻿using SpaceShuttleLaunch.IO.Contracts;
 using SpaceShuttleLaunch.Utilities.Messages;
-using System.Globalization;
-
 namespace SpaceShuttleLaunch.IO
 {
     public abstract class CSVWriter : IWriter

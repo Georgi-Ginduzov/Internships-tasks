@@ -2,6 +2,6 @@
 {
     public interface ISpaceMissionController
     {
-        void AddSpaceport(string location);
+        void FindMostSuitableSpaceportForecast(string filePath, string spaceportLocation);
     }
 }

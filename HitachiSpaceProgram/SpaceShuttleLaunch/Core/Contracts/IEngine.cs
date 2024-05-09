@@ -1,6 +1,6 @@
 ﻿namespace SpaceShuttleLaunch.Core.Contracts
 {
-    internal interface IEngine
+    public interface IEngine
     {
         void Run();
     }

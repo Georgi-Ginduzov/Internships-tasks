@@ -3,18 +3,19 @@ using SpaceShuttleLaunch.IO;
 using SpaceShuttleLaunch.IO.Contracts;
 using SpaceShuttleLaunch.Models;
 using SpaceShuttleLaunch.Models.Contracts;
+using SpaceShuttleLaunch.Repositories;
 
 namespace SpaceShuttleLaunch.Core
 {
     partial class SpaceMissionEngine : IEngine
     {
         private IWriter writer;
-        private WeatherController weatherController;
+        private SpaceMissionController controller;
         
         public SpaceMissionEngine()
         {
             writer = new WeatherCSVDataWriter();
-            weatherController = new WeatherController();
+            controller = new SpaceMissionController();
         }
 
         public void Run()
@@ -22,36 +23,52 @@ namespace SpaceShuttleLaunch.Core
             Console.Write("Enter the path to the folder on the file system: ");
             string inputsFolderPath = Console.ReadLine();
 
+            while (true)
+            {
+                var exists = Directory.Exists(inputsFolderPath);
+
+                if (exists)
+                    break;
+                else
+                {
+                    Console.WriteLine("Wrong path! ");
+                    Console.Write("Enter the path to the folder on the file system: ");
+                    inputsFolderPath = Console.ReadLine();
+                }
+            }
+
             Console.Write("Enter the sender email: ");
             string senderEmail = Console.ReadLine();
 
             Console.Write("Enter the sender password: ");
-            string senderPassword = Console.ReadLine();
+            string senderPassword = null;
+            while (true)
+            {
+                var key = Console.ReadKey(true);
+                if (key.Key == ConsoleKey.Enter)
+                    break;
+                senderPassword += key.KeyChar;
+            }
+            Console.WriteLine();
 
             Console.Write("Enter the recipient email: ");
             string recipientEmail = Console.ReadLine();
 
-            var spaceportsAndWeather = new SortedDictionary<IWeatherForecast, ISpaceport>();
 
 
             foreach (var filePath in Directory.EnumerateFiles(inputsFolderPath))
             {
-                string location = Path.GetFileName(filePath);
-                var spaceport = new Spaceport();
-                spaceport.LocationName = location;
-                
+                string location = Path.GetFileName(filePath);                
 
-                IWeatherForecast mostSuitableForecast = weatherController.FindMostSuitableSpaceportForecast(filePath);
-
-                spaceportsAndWeather[mostSuitableForecast] = spaceport;
-
+                controller.FindMostSuitableSpaceportForecast(filePath, location);
             }
-
-            foreach (var forecast in spaceportsAndWeather)
+            
+            foreach (var spaceport in controller.Spaceports.Models)
             {
-                string spaceportName = forecast.Value.LocationName;
-                string bestDate = forecast.Key.Date.ToString();
-                writer.Write($"{spaceportName},{bestDate}");
+                string spaceportName = spaceport.LocationName;
+                string bestDate = spaceport.MostConvenientDayForLaunch.Date.ToString();
+
+                writer.Write($"{spaceportName}, {bestDate}");
 
             }
 

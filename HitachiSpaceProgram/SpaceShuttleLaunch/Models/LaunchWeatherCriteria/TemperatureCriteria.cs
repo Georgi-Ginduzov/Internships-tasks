@@ -4,7 +4,7 @@ namespace SpaceShuttleLaunch.Models.LaunchWeatherCriteria
 {
     public class TemperatureCriteria : IWeatherCriteria
     {
-        public bool IsSatisfiedBy(DailyForecast forecast)
+        public bool IsSatisfiedBy(IWeatherForecast forecast)
         {
             var temperature = forecast.Temperature;
             return temperature >= 1 && temperature <= 32;
