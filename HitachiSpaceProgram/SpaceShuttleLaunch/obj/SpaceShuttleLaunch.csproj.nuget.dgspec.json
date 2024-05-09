@@ -52,6 +52,10 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[32.0.1, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

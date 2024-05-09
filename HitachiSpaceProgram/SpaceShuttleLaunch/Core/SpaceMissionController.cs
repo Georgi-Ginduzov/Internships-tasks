@@ -3,6 +3,7 @@ using SpaceShuttleLaunch.Models;
 using SpaceShuttleLaunch.Models.Contracts;
 using SpaceShuttleLaunch.Models.LaunchWeatherCriteria;
 using SpaceShuttleLaunch.Repositories;
+using SpaceShuttleLaunch.Services;
 using System.Globalization;
 
 namespace SpaceShuttleLaunch.Core
@@ -18,6 +19,23 @@ namespace SpaceShuttleLaunch.Core
         }
 
         public SpaceportRepository Spaceports => spaceports;
+
+        public bool SendEmail(string senderEmail, string senderPassword, string recipientEmail, string subject, string body)
+        {
+            try
+            {
+                var emailService = new EmailService(senderEmail, senderPassword);
+                emailService.Send(recipientEmail, subject, body);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                // handle exception
+                return false;
+            }
+
+            return true;
+        }
         
         public void FindMostSuitableSpaceportForecast(string filePath, string spaceportLocation)
         {

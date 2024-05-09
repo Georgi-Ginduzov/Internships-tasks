@@ -41,15 +41,7 @@ namespace SpaceShuttleLaunch.Core
             string senderEmail = Console.ReadLine();
 
             Console.Write("Enter the sender password: ");
-            string senderPassword = null;
-            while (true)
-            {
-                var key = Console.ReadKey(true);
-                if (key.Key == ConsoleKey.Enter)
-                    break;
-                senderPassword += key.KeyChar;
-            }
-            Console.WriteLine();
+            string senderPassword = Console.ReadLine();
 
             Console.Write("Enter the recipient email: ");
             string recipientEmail = Console.ReadLine();
@@ -69,8 +61,13 @@ namespace SpaceShuttleLaunch.Core
                 string bestDate = spaceport.MostConvenientDayForLaunch.Date.ToString();
 
                 writer.Write($"{spaceportName}, {bestDate}");
-
             }
+
+            // Get email sample info
+            string subject = "Space Shuttle Launch";
+            string body = "The best date for the space shuttle launch is: ";
+
+            controller.SendEmail(senderEmail, senderPassword, recipientEmail, subject, body);
 
         }
     }

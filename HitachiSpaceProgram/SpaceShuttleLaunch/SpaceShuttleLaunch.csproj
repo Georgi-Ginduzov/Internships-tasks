@@ -9,11 +9,11 @@
 
   <ItemGroup>
     <Folder Include="Localization\Resources\" />
-    <Folder Include="Services\Contracts\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="32.0.1" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
 
 </Project>

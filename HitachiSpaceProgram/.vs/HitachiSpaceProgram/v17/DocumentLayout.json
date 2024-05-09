@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\repositories\\weatherforecastsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\repositories\\weatherforecastsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\repositories\\spaceportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\repositories\\spaceportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\repositories\\contracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\repositories\\contracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\services\\contracts\\iemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\services\\contracts\\iemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\models\\weathercsvinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,32 @@
       "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\models\\spaceport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\models\\dailyforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\models\\dailyforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\contracts\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\contracts\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\spacemissionengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\spacemissionengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\spacemissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\spacemissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\contracts\\ispacemissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\contracts\\ispacemissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\repositories\\weatherforecastsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\repositories\\weatherforecastsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\repositories\\spaceportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\repositories\\spaceportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\repositories\\contracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\repositories\\contracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\models\\contracts\\ispaceport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\io\\contracts\\ireader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\io\\contracts\\ireader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\contracts\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\contracts\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\spacemissionengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\spacemissionengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\core\\spacemissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|solutionrelative:spaceshuttlelaunch\\core\\spacemissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EEF3731-39B5-4A81-AB00-D67F89BC1D89}|SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj|c:\\users\\asus\\source\\repos\\internships-tasks\\hitachispaceprogram\\spaceshuttlelaunch\\models\\launchweathercriteria\\precipitationcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,8 +113,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 291,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,137 +126,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherCsvInput.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:32:12.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T08:51:14.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpaceportRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T05:55:45.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Services\\EmailService.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Services\\EmailService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T03:32:29.621Z",
+              "WhenOpened": "2024-05-09T07:00:15.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpaceMissionEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T06:21:52.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Spaceport.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Spaceport.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\Spaceport.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Spaceport.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\Spaceport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T11:00:52.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ISpaceport.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T05:21:12.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherCSVDataWriter.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T14:12:10.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CSVReader.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVReader.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\CSVReader.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVReader.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\CSVReader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:51:11.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CSVWriter.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVWriter.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\CSVWriter.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVWriter.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\CSVWriter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:51:02.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IReader.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:45:47.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "IEngine.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\Contracts\\IEngine.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Core\\Contracts\\IEngine.cs",
@@ -261,20 +165,167 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SpaceMissionEngine.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Core\\SpaceMissionEngine.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDIAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "Spaceport.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Spaceport.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\Spaceport.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Spaceport.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\Spaceport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T06:21:52.983Z",
+              "WhenOpened": "2024-05-07T11:00:52.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherCsvInput.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\WeatherCsvInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T17:32:12.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmail.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Services\\Contracts\\IEmail.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Services\\Contracts\\IEmail.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Services\\Contracts\\IEmail.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Services\\Contracts\\IEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T07:00:32.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISpaceMissionController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\Contracts\\ISpaceMissionController.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Core\\Contracts\\ISpaceMissionController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\Contracts\\ISpaceMissionController.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Core\\Contracts\\ISpaceMissionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:45:58.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpaceMissionController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:45:15.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Repositories\\WeatherForecastsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T03:32:29.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Repositories\\Contracts\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:51:14.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpaceportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Repositories\\SpaceportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T05:55:45.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISpaceport.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\Contracts\\ISpaceport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T05:21:12.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherCSVDataWriter.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\WeatherCSVDataWriter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:12:10.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CSVReader.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVReader.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\CSVReader.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVReader.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\CSVReader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:51:11.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CSVWriter.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVWriter.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\CSVWriter.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\CSVWriter.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\CSVWriter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:51:02.001Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "IReader.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
+              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
+              "RelativeToolTip": "SpaceShuttleLaunch\\IO\\Contracts\\IReader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T17:45:47.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "HumidityCriteria.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\HumidityCriteria.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\HumidityCriteria.cs",
@@ -282,12 +333,11 @@
               "RelativeToolTip": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\HumidityCriteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:21:09.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T05:21:09.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PrecipitationCriteria.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\PrecipitationCriteria.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\PrecipitationCriteria.cs",
@@ -295,12 +345,11 @@
               "RelativeToolTip": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\PrecipitationCriteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:11:06.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T05:11:06.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "WindSpeedCriteria.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\WindSpeedCriteria.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\WindSpeedCriteria.cs",
@@ -308,12 +357,11 @@
               "RelativeToolTip": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\WindSpeedCriteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:20:05.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T05:20:05.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "TemperatureCriteria.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\TemperatureCriteria.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\TemperatureCriteria.cs",
@@ -321,12 +369,11 @@
               "RelativeToolTip": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\TemperatureCriteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:18:47.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T05:18:47.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "LightningCriteria.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\LightningCriteria.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\LightningCriteria.cs",
@@ -334,12 +381,11 @@
               "RelativeToolTip": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\LightningCriteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:22:45.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T05:22:45.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "CloudsCriteria.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\CloudsCriteria.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\CloudsCriteria.cs",
@@ -347,12 +393,11 @@
               "RelativeToolTip": "SpaceShuttleLaunch\\Models\\LaunchWeatherCriteria\\CloudsCriteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:24:07.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T05:24:07.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ExceptionMessages.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Utilities\\Messages\\ExceptionMessages.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Utilities\\Messages\\ExceptionMessages.cs",
@@ -364,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "StartUp.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\StartUp.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\StartUp.cs",
@@ -376,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IWriter.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\IO\\Contracts\\IWriter.cs",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\IO\\Contracts\\IWriter.cs",
@@ -388,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "SpaceShuttleLaunch.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj",
               "RelativeDocumentMoniker": "SpaceShuttleLaunch\\SpaceShuttleLaunch.csproj",
@@ -402,38 +447,6 @@
         },
         {
           "DockedWidth": 291,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SpaceMissionController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Core\\SpaceMissionController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwBQAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:03:28.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DailyForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\DailyForecast.cs",
-              "RelativeDocumentMoniker": "SpaceShuttleLaunch\\Models\\DailyForecast.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Internships-tasks\\HitachiSpaceProgram\\SpaceShuttleLaunch\\Models\\DailyForecast.cs",
-              "RelativeToolTip": "SpaceShuttleLaunch\\Models\\DailyForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T18:04:47.868Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {
