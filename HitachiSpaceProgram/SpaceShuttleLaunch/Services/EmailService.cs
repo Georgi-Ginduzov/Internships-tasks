@@ -1,5 +1,5 @@
-﻿using MimeKit;
-using SpaceShuttleLaunch.Services.Contracts;
+﻿using SpaceShuttleLaunch.Services.Contracts;
+using SpaceShuttleLaunch.Utilities.Messages;
 using System.Net;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
@@ -9,6 +9,7 @@ namespace SpaceShuttleLaunch.Services
     public class EmailService : IEmail
     {
         private static readonly Regex EmailRegex = new Regex(@"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b", RegexOptions.Compiled);
+        private readonly int maxTries = 5;
         private string senderEmail;
         private string password;
         public EmailService(string senderEmail, string senderPassword)
@@ -20,55 +21,138 @@ namespace SpaceShuttleLaunch.Services
         public string SenderEmail 
         { 
             get => senderEmail;
-            set
+            private set
             {
-                if (ValidEmail(value))
+                if (IsValidEmail(value))
                 {
                     senderEmail = value;
                 }
                 else
                 {
-                    Console.WriteLine("Invalid email address! Please try again.");
-                    SenderEmail = Console.ReadLine();
+                    for (int i = 0; i < maxTries; i++)
+                    {
+                        Console.WriteLine(ExceptionMessages.InvalidEmail);
+                        value = Console.ReadLine();
+                        if (IsValidEmail(value))
+                        {
+                            senderEmail = value;
+                            return;
+                        }
+                    }
+
+                    Console.WriteLine(ExceptionMessages.MaxAttemptsReached);
+                    Environment.Exit(0);
                 }
             }
         }
         
         public bool Send(string recipientEmail, string subject, string text, string attachmentLocation)
         {
-            if(!ValidEmail(recipientEmail))
+            if (!IsValidEmail(recipientEmail))
             {
-                Console.WriteLine("Recipient email addres incorrect! Please try again.");
-                recipientEmail = Console.ReadLine();
-
-                Send(recipientEmail, subject, text, attachmentLocation); // or cycle with max attempts
+                Environment.Exit(0);
             }
 
-            using (var mailMessage = new MailMessage(senderEmail, recipientEmail, subject, text))
+            try
             {
-                if (File.Exists(attachmentLocation))
+                using (var mailMessage = new MailMessage(senderEmail, recipientEmail, subject, text))
                 {
-                    mailMessage.Attachments.Add(new Attachment(attachmentLocation));
-                }
-                using (var smtpClient = new SmtpClient
-                {
-                    Host = "smtp.gmail.com",
-                    Port = 587,
-                    Credentials = new NetworkCredential(senderEmail, password),
-                    EnableSsl = true,
-                })
-                {
-                    smtpClient.Send(mailMessage);
+                    if (IsValidFile(attachmentLocation))
+                    {
+                        mailMessage.Attachments.Add(new Attachment(attachmentLocation));
+                    }
+                    else
+                    {
+                        Environment.Exit(0);
+                    }
+
+                    using (var smtpClient = new SmtpClient
+                    {
+                        Host = "smtp.gmail.com",
+                        Port = 587,
+                        Credentials = new NetworkCredential(senderEmail, password),
+                        EnableSsl = true,
+                    })
+                    {
+                        smtpClient.Send(mailMessage);
+                    }
+
                 }
 
             }
+            catch (SmtpException ex)
+            {
+                switch (ex.StatusCode)
+                {
+                    case SmtpStatusCode.GeneralFailure:
+                        Console.WriteLine(ExceptionMessages.GeneralFailure);
+                        break;
+                    case SmtpStatusCode.MailboxBusy:
+                    case SmtpStatusCode.MailboxUnavailable:
+                        Console.WriteLine();
+                        break;
+                    case SmtpStatusCode.ExceededStorageAllocation:
+                        Console.WriteLine(ExceptionMessages.ExceededStorageAllocation);
+                        break;
+                    case SmtpStatusCode.TransactionFailed:
+                        Console.WriteLine(ExceptionMessages.TransactionFailed);
+                        break;
+                    case SmtpStatusCode.ClientNotPermitted:
+                        Console.WriteLine(ExceptionMessages.ClientNotPermitted);
+                        break;
+                    default:
+                        Console.WriteLine(ExceptionMessages.EmailNotSentError, ex.Message);
+                        break;
+                }
 
+                return false;
+            }
+            
             return true;
         }
 
-        private bool ValidEmail(string email)
+        private bool IsValidEmail(string email)
         {
-            return EmailRegex.IsMatch(email);
+            if (!EmailRegex.IsMatch(email))
+            {
+                Console.WriteLine(ExceptionMessages.InvalidRecipientEmail);
+                for (int i = 0; i < maxTries; i++)
+                {
+                    Console.WriteLine(ExceptionMessages.InvalidEmail);
+                    email = Console.ReadLine();
+
+                    if (EmailRegex.IsMatch(email))
+                    {
+                        return true;
+                    }
+                }
+
+                Console.WriteLine(ExceptionMessages.MaxAttemptsReached);
+            }
+            return false;
         }
+
+        private bool IsValidFile(string path)
+        {
+            if (!File.Exists(path))
+            {
+                Console.WriteLine(ExceptionMessages.InvalidRecipientEmail);
+                for (int i = 0; i < maxTries; i++)
+                {
+                    Console.WriteLine(ExceptionMessages.PathIncorrect, path);
+                    path = Console.ReadLine();
+
+                    if (File.Exists(path))
+                    {
+                        return true;
+                    }
+                }
+
+                Console.WriteLine(ExceptionMessages.MaxAttemptsReached);
+            }
+
+            return false;
+        }
+
     }
 }

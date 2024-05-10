@@ -1,6 +1,7 @@
 ﻿using SpaceShuttleLaunch.Core.Contracts;
 using SpaceShuttleLaunch.IO;
 using SpaceShuttleLaunch.IO.Contracts;
+using SpaceShuttleLaunch.Utilities.Messages;
 
 namespace SpaceShuttleLaunch.Core
 {
@@ -48,9 +49,42 @@ namespace SpaceShuttleLaunch.Core
 
             foreach (var filePath in Directory.EnumerateFiles(inputsFolderPath))
             {
-                string location = Path.GetFileName(filePath);                
+                string location = Path.GetFileName(filePath);
 
-                controller.FindMostSuitableSpaceportForecast(filePath, location);
+                try
+                {
+                    controller.FindMostSuitableSpaceportForecast(filePath, location);
+                }
+                catch (FileNotFoundException)
+                {
+                    Console.WriteLine(ExceptionMessages.PathIncorrect, filePath);
+                    Environment.Exit(1);
+                }
+                catch (DirectoryNotFoundException)
+                {
+                    Console.WriteLine(ExceptionMessages.DirectoryNotFoundException, filePath);
+                    Environment.Exit(1);
+                }
+                catch (IOException ex)
+                {
+                    Console.WriteLine(ExceptionMessages.IOError, ex.Message);
+                    Environment.Exit(1);
+                }
+                catch (CsvHelper.CsvHelperException ex)
+                {
+                    Console.WriteLine(ExceptionMessages.CsvError, ex.Message);
+                    Environment.Exit(1);
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine(ExceptionMessages.CsvFileFormatException, ex.Message);
+                    Environment.Exit(1);
+                }
+                catch (OverflowException ex)
+                {
+                    Console.WriteLine(ExceptionMessages.DataParsingError, ex.Message);
+                    Environment.Exit(1);
+                }
             }
             
             foreach (var spaceport in controller.Spaceports.Models)

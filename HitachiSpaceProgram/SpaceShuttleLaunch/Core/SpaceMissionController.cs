@@ -1,16 +1,19 @@
-﻿using SpaceShuttleLaunch.Core.Contracts;
+﻿using CsvHelper;
+using SpaceShuttleLaunch.Core.Contracts;
 using SpaceShuttleLaunch.Models;
 using SpaceShuttleLaunch.Models.Contracts;
 using SpaceShuttleLaunch.Models.LaunchWeatherCriteria;
 using SpaceShuttleLaunch.Repositories;
 using SpaceShuttleLaunch.Services;
+using SpaceShuttleLaunch.Utilities.Messages;
 using System.Globalization;
+using System.Linq.Expressions;
 
 namespace SpaceShuttleLaunch.Core
 {
     public class SpaceMissionController : ISpaceMissionController
     {   
-        private SpaceportRepository spaceports;
+        private readonly SpaceportRepository spaceports;
 
 
         public SpaceMissionController()
@@ -22,24 +25,15 @@ namespace SpaceShuttleLaunch.Core
 
         public bool SendEmailWithAttachment(string senderEmail, string senderPassword, string recipientEmail, string subject, string bodyText, string attachmentLocation)
         {
-            try
-            {
-                var emailService = new EmailService(senderEmail, senderPassword);
-                emailService.Send(recipientEmail, subject, bodyText, attachmentLocation);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                // handle exception
-                return false;
-            }
-
+            var emailService = new EmailService(senderEmail, senderPassword);
+            emailService.Send(recipientEmail, subject, bodyText, attachmentLocation);
+         
             return true;
         }
-        
+
         public void FindMostSuitableSpaceportForecast(string filePath, string spaceportLocation)
         {
-            var forecastRepository =  GetWeatherData(filePath);
+            var forecastRepository = GetWeatherData(filePath);
             var validForecasts = new WeatherForecastsRepository();
 
             var criteria = new List<IWeatherCriteria>
@@ -51,6 +45,7 @@ namespace SpaceShuttleLaunch.Core
                 new LightningCriteria(),
                 new CloudsCriteria()
             };
+        
             
             var weatherCriteria = new WeatherCriteria(criteria);
 
@@ -153,8 +148,10 @@ namespace SpaceShuttleLaunch.Core
                     DailyForecast[] dailyForecasts = new DailyForecast[forecastsCount];
                     for (int j = 0; j < dailyForecasts.Length; j++)
                     {
-                        dailyForecasts[j] = new DailyForecast();
-                        dailyForecasts[j].Date = j + 1;
+                        dailyForecasts[j] = new DailyForecast
+                        {
+                            Date = j + 1
+                        };
                     }
 
                     var records = csv.GetRecords<WeatherCsvInput>();
@@ -275,7 +272,7 @@ namespace SpaceShuttleLaunch.Core
                         }
                     }
 
-                    WeatherForecastsRepository forecasts = new WeatherForecastsRepository();
+                    var forecasts = new WeatherForecastsRepository();
 
                     foreach (var forecast in dailyForecasts)
                     {
@@ -286,7 +283,18 @@ namespace SpaceShuttleLaunch.Core
                 }
 
             }
+        }
 
+        bool IsValidNumber(string number)
+        {
+            if (string.IsNullOrWhiteSpace(number))
+            {
+                return false;
+            }
+
+            number = number.Trim();
+
+            return int.TryParse(number, out int result);
         }
 
 
