@@ -1,4 +1,5 @@
 ﻿using SpaceShuttleLaunch.Models.Contracts;
+using SpaceShuttleLaunch.Utilities.Messages;
 
 namespace SpaceShuttleLaunch.Models
 {
@@ -49,7 +50,7 @@ namespace SpaceShuttleLaunch.Models
             }
             else
             {
-                throw new ArgumentException("Object is not a DailyForecast");
+                throw new ArgumentException(ExceptionMessages.NotADailyForecast);
             }
         }
     }

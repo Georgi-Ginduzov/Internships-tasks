@@ -12,6 +12,7 @@ namespace SpaceShuttleLaunch.Services
         private readonly int maxTries = 5;
         private string senderEmail;
         private string password;
+
         public EmailService(string senderEmail, string senderPassword)
         {
             SenderEmail = senderEmail;

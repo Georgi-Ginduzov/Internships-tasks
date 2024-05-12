@@ -20,7 +20,7 @@ namespace SpaceShuttleLaunch.Core
 
         private void SetCulture()
         {
-            Console.Write("Enter the preferred language: ");
+            Console.Write(OutputMessages.PreferredLanguage);
             string preferredLanguage = Console.ReadLine();
            
             switch (preferredLanguage.ToLower())
@@ -40,30 +40,28 @@ namespace SpaceShuttleLaunch.Core
         {
             SetCulture();
 
-            Console.Write("Enter the path to the folder on the file system: ");
+            Console.Write(OutputMessages.EnterInputFolderPath);
             string inputsFolderPath = Console.ReadLine();
 
             while (true)
             {
-                var exists = Directory.Exists(inputsFolderPath);
-
-                if (exists)
+                if (Directory.Exists(inputsFolderPath))
                     break;
                 else
                 {
-                    Console.WriteLine("Wrong path! ");
-                    Console.Write("Enter the path to the folder on the file system: ");
+                    Console.WriteLine(ExceptionMessages.PathIncorrect, inputsFolderPath);
+                    Console.Write(OutputMessages.EnterInputFolderPath);
                     inputsFolderPath = Console.ReadLine();
                 }
             }
 
-            Console.Write("Enter the sender email: ");
+            Console.Write(OutputMessages.EnterInputSenderEmail);
             string senderEmail = Console.ReadLine();
 
-            Console.Write("Enter the sender password: ");
+            Console.Write(OutputMessages.EnterInputSenderPassword);
             string senderPassword = Console.ReadLine();
 
-            Console.Write("Enter the recipient email: ");
+            Console.Write(OutputMessages.EnterInputRecipientEmail);
             string recipientEmail = Console.ReadLine();
 
 
@@ -117,7 +115,7 @@ namespace SpaceShuttleLaunch.Core
             }
 
             string mailSubject = "Space Shuttle Launch";
-            string mailBody = controller.Spaceports.Models.First().LocationName.ToString() + " on date -> " + controller.Spaceports.Models.First().MostConvenientDayForLaunch.Date.ToString();
+            string mailBody = controller.Spaceports.Models.First().LocationName.ToString() + "  -> " + controller.Spaceports.Models.First().MostConvenientDayForLaunch.Date.ToString();
 
             controller.SendEmailWithAttachment(senderEmail, senderPassword, recipientEmail, mailSubject, mailBody, attachmentLocation);
 

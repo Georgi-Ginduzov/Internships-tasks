@@ -133,6 +133,42 @@ namespace SpaceShuttleLaunch.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter the path to the folder on the file system:.
+        /// </summary>
+        internal static string EnterInputFolderPath {
+            get {
+                return ResourceManager.GetString("EnterInputFolderPath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the recipient email:.
+        /// </summary>
+        internal static string EnterInputRecipientEmail {
+            get {
+                return ResourceManager.GetString("EnterInputRecipientEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the sender email:.
+        /// </summary>
+        internal static string EnterInputSenderEmail {
+            get {
+                return ResourceManager.GetString("EnterInputSenderEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the sender password:.
+        /// </summary>
+        internal static string EnterInputSenderPassword {
+            get {
+                return ResourceManager.GetString("EnterInputSenderPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to An error occurred while writing to the CSV file..
         /// </summary>
         internal static string ErrorWritingToFile {
@@ -250,6 +286,15 @@ namespace SpaceShuttleLaunch.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Object is not a DailyForecast..
+        /// </summary>
+        internal static string NotADailyForecast {
+            get {
+                return ResourceManager.GetString("NotADailyForecast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There is not enough disk space to create or write to the file..
         /// </summary>
         internal static string NotEnoughDiskSpace {
@@ -268,11 +313,29 @@ namespace SpaceShuttleLaunch.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter the preferred language:.
+        /// </summary>
+        internal static string PreferredLanguage {
+            get {
+                return ResourceManager.GetString("PreferredLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The email transaction failed..
         /// </summary>
         internal static string TransactionFailed {
             get {
                 return ResourceManager.GetString("TransactionFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to the Space Shuttle Launch Program!.
+        /// </summary>
+        internal static string WelcomeMessage {
+            get {
+                return ResourceManager.GetString("WelcomeMessage", resourceCulture);
             }
         }
     }

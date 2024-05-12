@@ -30,6 +30,7 @@
 
         // Forecast
         public const string NoForecastsAvailable = "No forecasts available.";
+        public const string NotADailyForecast = "Object is not a DailyForecast.";
 
 
         // Repository

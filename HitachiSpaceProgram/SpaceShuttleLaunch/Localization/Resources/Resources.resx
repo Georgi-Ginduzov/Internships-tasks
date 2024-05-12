@@ -189,4 +189,25 @@
   <data name="DataParsingError" xml:space="preserve">
     <value>An overflow error occurred while parsing the data: {0}</value>
   </data>
+  <data name="EnterInputFolderPath" xml:space="preserve">
+    <value>Enter the path to the folder on the file system:</value>
+  </data>
+  <data name="EnterInputRecipientEmail" xml:space="preserve">
+    <value>Enter the recipient email:</value>
+  </data>
+  <data name="EnterInputSenderEmail" xml:space="preserve">
+    <value>Enter the sender email:</value>
+  </data>
+  <data name="EnterInputSenderPassword" xml:space="preserve">
+    <value>Enter the sender password:</value>
+  </data>
+  <data name="NotADailyForecast" xml:space="preserve">
+    <value>Object is not a DailyForecast.</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Enter the preferred language:</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Welcome to the Space Shuttle Launch Program!</value>
+  </data>
 </root>

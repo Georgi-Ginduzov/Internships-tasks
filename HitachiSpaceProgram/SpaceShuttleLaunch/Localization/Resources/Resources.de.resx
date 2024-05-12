@@ -141,6 +141,21 @@
   <data name="EmailNotSentError" xml:space="preserve">
     <value>Die E-Mail wurde nicht gesendet. Bitte versuche es erneut.</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Startbericht des Space Shuttles</value>
+  </data>
+  <data name="EnterInputFolderPath" xml:space="preserve">
+    <value>Geben Sie den Pfad zum Ordner im Dateisystem ein:</value>
+  </data>
+  <data name="EnterInputRecipientEmail" xml:space="preserve">
+    <value>Geben Sie die E-Mail-Adresse des Empfängers ein:</value>
+  </data>
+  <data name="EnterInputSenderEmail" xml:space="preserve">
+    <value>Geben Sie die E-Mail-Adresse des Absenders ein:</value>
+  </data>
+  <data name="EnterInputSenderPassword" xml:space="preserve">
+    <value>Geben Sie das Absenderpasswort ein:</value>
+  </data>
   <data name="ErrorWritingToFile" xml:space="preserve">
     <value>Beim Schreiben in die CSV-Datei ist ein Fehler aufgetreten.</value>
   </data>
@@ -180,13 +195,22 @@
   <data name="NoForecastsAvailable" xml:space="preserve">
     <value>Keine Prognosen verfügbar.</value>
   </data>
+  <data name="NotADailyForecast" xml:space="preserve">
+    <value>Das Objekt ist kein DailyForecast.</value>
+  </data>
   <data name="NotEnoughDiskSpace" xml:space="preserve">
     <value>Es ist nicht genügend Speicherplatz zum Erstellen oder Schreiben der Datei vorhanden.</value>
   </data>
   <data name="PathIncorrect" xml:space="preserve">
     <value>{0}-Pfad ist ungültig.</value>
   </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Geben Sie die bevorzugte Sprache ein:</value>
+  </data>
   <data name="TransactionFailed" xml:space="preserve">
     <value>Die E-Mail-Transaktion ist fehlgeschlagen.</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Willkommen beim Space-Shuttle-Startprogramm!</value>
   </data>
 </root>
