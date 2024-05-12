@@ -23,7 +23,7 @@ namespace SpaceShuttleLaunch.Core
         public bool SendEmailWithAttachment(string senderEmail, string senderPassword, string recipientEmail, string subject, string bodyText, string attachmentLocation)
         {
             var emailService = new EmailService(senderEmail, senderPassword);
-            emailService.Send(recipientEmail, subject, bodyText, attachmentLocation);
+            emailService.SendAsync(recipientEmail, subject, bodyText, attachmentLocation);
          
             return true;
         }
@@ -46,13 +46,13 @@ namespace SpaceShuttleLaunch.Core
             
             var weatherCriteria = new WeatherCriteria(criteria);
 
-            foreach (var forecast in forecastRepository.Models)
+            Parallel.ForEach(forecastRepository.Models, forecast =>
             {
                 if (weatherCriteria.IsWeatherSuitable(forecast))
                 {
                     validForecasts.Add(forecast);
                 }
-            }
+            });
 
             spaceports.Add(new Spaceport(spaceportLocation, validForecasts));
         }

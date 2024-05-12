@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceShuttleLaunch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fd537ebbfd292ae71a05b605c4ca0b0b91a5aa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b612e44437e3e6dbd98a80269b01682a089ac740")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceShuttleLaunch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceShuttleLaunch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

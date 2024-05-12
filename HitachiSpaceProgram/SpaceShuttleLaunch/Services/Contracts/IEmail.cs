@@ -2,6 +2,6 @@
 {
     public interface IEmail
     {
-        bool Send(string recipientEmail, string subject, string body, string attachmentLocation);
+        Task<bool> SendAsync(string recipientEmail, string subject, string body, string attachmentLocation);
     }
 }

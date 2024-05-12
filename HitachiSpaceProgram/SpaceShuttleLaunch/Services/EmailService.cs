@@ -47,7 +47,7 @@ namespace SpaceShuttleLaunch.Services
             }
         }
         
-        public bool Send(string recipientEmail, string subject, string text, string attachmentLocation)
+        public async Task<bool> SendAsync(string recipientEmail, string subject, string text, string attachmentLocation)
         {
             if (!IsValidEmail(recipientEmail))
             {
@@ -75,7 +75,7 @@ namespace SpaceShuttleLaunch.Services
                         EnableSsl = true,
                     })
                     {
-                        smtpClient.Send(mailMessage);
+                        await smtpClient.SendMailAsync(mailMessage);
                     }
 
                 }

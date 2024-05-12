@@ -12,7 +12,7 @@
         public const string EnterInputRecipientEmail = "Enter the recipient email: ";
 
         // Email messages
-        public const string EmailSubject = "Space Shuttle Launch Report";
+        public const string EmailSubject = "Space Shuttle Launch Report ";
 
 
 
