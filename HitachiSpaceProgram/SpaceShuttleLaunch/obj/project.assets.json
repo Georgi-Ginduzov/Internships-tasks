@@ -15,6 +15,23 @@
           }
         }
       },
+      "ICSharpCode.Decompiler/8.2.0.7535": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0",
+          "System.Reflection.Metadata": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ICSharpCode.Decompiler.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.Decompiler.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MailKit/3.2.0": {
         "type": "package",
         "dependencies": {
@@ -110,6 +127,25 @@
           }
         }
       },
+      "System.Collections.Immutable/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Formats.Asn1/6.0.0": {
         "type": "package",
         "compile": {
@@ -119,6 +155,25 @@
         },
         "runtime": {
           "lib/net6.0/System.Formats.Asn1.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reflection.Metadata/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reflection.Metadata.dll": {
             "related": ".xml"
           }
         },
@@ -196,6 +251,21 @@
         "lib/netstandard2.0/CsvHelper.xml",
         "lib/netstandard2.1/CsvHelper.dll",
         "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "ICSharpCode.Decompiler/8.2.0.7535": {
+      "sha512": "y4vSHtXCoTNISvvlxcskz+Hiw1vqY0kQsu0loO6nOsWwwZ60IxaTygEFapN2SuSB3SiswGPv535y/bV70Fm8hw==",
+      "type": "package",
+      "path": "icsharpcode.decompiler/8.2.0.7535",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DecompilerNuGetPackageIcon.png",
+        "PackageReadme.md",
+        "icsharpcode.decompiler.8.2.0.7535.nupkg.sha512",
+        "icsharpcode.decompiler.nuspec",
+        "lib/netstandard2.0/ICSharpCode.Decompiler.dll",
+        "lib/netstandard2.0/ICSharpCode.Decompiler.xml"
       ]
     },
     "MailKit/3.2.0": {
@@ -347,6 +417,29 @@
         "portable.bouncycastle.nuspec"
       ]
     },
+    "System.Collections.Immutable/6.0.0": {
+      "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "type": "package",
+      "path": "system.collections.immutable/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Collections.Immutable.dll",
+        "lib/net461/System.Collections.Immutable.xml",
+        "lib/net6.0/System.Collections.Immutable.dll",
+        "lib/net6.0/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "system.collections.immutable.6.0.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Formats.Asn1/6.0.0": {
       "sha512": "T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
       "type": "package",
@@ -367,6 +460,29 @@
         "lib/netstandard2.0/System.Formats.Asn1.xml",
         "system.formats.asn1.6.0.0.nupkg.sha512",
         "system.formats.asn1.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Reflection.Metadata/6.0.0": {
+      "sha512": "sffDOcex1C3HO5kDolOYcWXTwRpZY/LvJujM6SMjn63fWMJWchYAAmkoAJXlbpZ5yf4d+KMgxd+LeETa4gD9sQ==",
+      "type": "package",
+      "path": "system.reflection.metadata/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Reflection.Metadata.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Reflection.Metadata.dll",
+        "lib/net461/System.Reflection.Metadata.xml",
+        "lib/net6.0/System.Reflection.Metadata.dll",
+        "lib/net6.0/System.Reflection.Metadata.xml",
+        "lib/netstandard2.0/System.Reflection.Metadata.dll",
+        "lib/netstandard2.0/System.Reflection.Metadata.xml",
+        "system.reflection.metadata.6.0.0.nupkg.sha512",
+        "system.reflection.metadata.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -436,6 +552,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CsvHelper >= 32.0.1",
+      "ICSharpCode.Decompiler >= 8.2.0.7535",
       "NETCore.MailKit >= 2.1.0"
     ]
   },
@@ -491,6 +608,10 @@
           "CsvHelper": {
             "target": "Package",
             "version": "[32.0.1, )"
+          },
+          "ICSharpCode.Decompiler": {
+            "target": "Package",
+            "version": "[8.2.0.7535, )"
           },
           "NETCore.MailKit": {
             "target": "Package",

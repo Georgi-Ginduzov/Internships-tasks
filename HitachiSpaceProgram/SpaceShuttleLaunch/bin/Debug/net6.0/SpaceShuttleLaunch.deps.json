@@ -9,6 +9,7 @@
       "SpaceShuttleLaunch/1.0.0": {
         "dependencies": {
           "CsvHelper": "32.0.1",
+          "ICSharpCode.Decompiler": "8.2.0.7535",
           "NETCore.MailKit": "2.1.0"
         },
         "runtime": {
@@ -20,6 +21,18 @@
           "lib/net6.0/CsvHelper.dll": {
             "assemblyVersion": "32.0.0.0",
             "fileVersion": "32.0.1.20"
+          }
+        }
+      },
+      "ICSharpCode.Decompiler/8.2.0.7535": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0",
+          "System.Reflection.Metadata": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.Decompiler.dll": {
+            "assemblyVersion": "8.2.0.7535",
+            "fileVersion": "8.2.0.7535"
           }
         }
       },
@@ -86,7 +99,17 @@
           }
         }
       },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
       "System.Formats.Asn1/6.0.0": {},
+      "System.Reflection.Metadata/6.0.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0"
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Security.Cryptography.Pkcs/6.0.0": {
         "dependencies": {
@@ -121,6 +144,13 @@
       "sha512": "sha512-1sPpPUlSGCU2BRZmU+NZ2Le/AO2BBQTRZPZvNmfIgrDiVgLC6oD6b9QDFFf5AHhNsU+cAAbGoAcnnWq5a7VPlw==",
       "path": "csvhelper/32.0.1",
       "hashPath": "csvhelper.32.0.1.nupkg.sha512"
+    },
+    "ICSharpCode.Decompiler/8.2.0.7535": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y4vSHtXCoTNISvvlxcskz+Hiw1vqY0kQsu0loO6nOsWwwZ60IxaTygEFapN2SuSB3SiswGPv535y/bV70Fm8hw==",
+      "path": "icsharpcode.decompiler/8.2.0.7535",
+      "hashPath": "icsharpcode.decompiler.8.2.0.7535.nupkg.sha512"
     },
     "MailKit/3.2.0": {
       "type": "package",
@@ -164,12 +194,26 @@
       "path": "portable.bouncycastle/1.9.0",
       "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
     },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
     "System.Formats.Asn1/6.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
       "path": "system.formats.asn1/6.0.0",
       "hashPath": "system.formats.asn1.6.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sffDOcex1C3HO5kDolOYcWXTwRpZY/LvJujM6SMjn63fWMJWchYAAmkoAJXlbpZ5yf4d+KMgxd+LeETa4gD9sQ==",
+      "path": "system.reflection.metadata/6.0.0",
+      "hashPath": "system.reflection.metadata.6.0.0.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",

@@ -2,6 +2,7 @@
 using SpaceShuttleLaunch.IO;
 using SpaceShuttleLaunch.IO.Contracts;
 using SpaceShuttleLaunch.Utilities.Messages;
+using System.Globalization;
 
 namespace SpaceShuttleLaunch.Core
 {
@@ -17,8 +18,28 @@ namespace SpaceShuttleLaunch.Core
             controller = new SpaceMissionController();
         }
 
+        private void SetCulture()
+        {
+            Console.Write("Enter the preferred language: ");
+            string preferredLanguage = Console.ReadLine();
+           
+            switch (preferredLanguage.ToLower())
+            {
+                case "german":
+                    CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("de-DE");
+                    break;
+
+                default:
+                    CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+                    break;
+            }
+
+        }
+
         public void Run()
         {
+            SetCulture();
+
             Console.Write("Enter the path to the folder on the file system: ");
             string inputsFolderPath = Console.ReadLine();
 

@@ -50,7 +50,7 @@ namespace SpaceShuttleLaunch.Services
         {
             if (!IsValidEmail(recipientEmail))
             {
-                Environment.Exit(0);
+                return false;
             }
 
             try
@@ -63,7 +63,7 @@ namespace SpaceShuttleLaunch.Services
                     }
                     else
                     {
-                        Environment.Exit(0);
+                        return false;
                     }
 
                     using (var smtpClient = new SmtpClient

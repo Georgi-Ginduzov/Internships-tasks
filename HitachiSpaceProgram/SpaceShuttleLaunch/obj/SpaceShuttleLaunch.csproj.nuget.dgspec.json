@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[32.0.1, )"
             },
+            "ICSharpCode.Decompiler": {
+              "target": "Package",
+              "version": "[8.2.0.7535, )"
+            },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
